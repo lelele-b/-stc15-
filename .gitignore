@@ -1,0 +1,23 @@
+# Keil C51 编译产物
+Objects/
+Listings/
+*.obj
+*.lst
+*.m51
+*.lnp
+*.hex
+*.build_log.htm
+*.bak
+
+# µVision 的每用户界面状态（不该进版本库）
+*.uvgui.*
+*.uvgui
+
+# 临时/备份目录
+_fix_tmp/
+_fix_backup/
+
+# 系统文件
+Thumbs.db
+desktop.ini
+.DS_Store

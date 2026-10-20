@@ -1,0 +1,6 @@
+# C51 源码在工作区里是 GBK（中文注释），仓库里统一存成 UTF-8，
+# 这样 GitHub 网页上中文能正常显示，而本地文件仍是 GBK，µVision / C51 不受影响。
+# -text 关掉换行符转换：core.autocrlf 现在是 true，不关掉的话 clone 下来
+# 会把 LF 改成 CRLF，文件字节就变了。
+*.c working-tree-encoding=GBK -text
+*.h working-tree-encoding=GBK -text
